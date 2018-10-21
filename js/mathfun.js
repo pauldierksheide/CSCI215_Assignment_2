@@ -47,7 +47,7 @@ function enterNum() {
         console.log("Num2: " + parseInt(numArray[numArray.length / 2],10));
         var num1 = parseInt(numArray[numArray.length/2 - 1], 10);
         var num2 = parseInt(numArray[numArray.length / 2],10)
-        median = (num1 + num2)/2;
+        median = (num1 + num2) / 2;
     } else {
         median = parseInt(numArray[(numArray.length - 1) / 2],10);
     }
