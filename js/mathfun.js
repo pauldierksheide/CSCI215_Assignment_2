@@ -1,29 +1,28 @@
-var number = 0;
 var numArray = [];
+var input = 0;
 
-function calculate() {
+function enterNum() {
 
-    while (num != -1)
-    {
-        number = prompt("Enter any number. To stop enter -1:"," ");
-        numArray[i] = num;
-        i++;
+    //Prompt user for numbers
+    while (input != "-1") {
+        input = prompt("Enter any number. Enter -1 to stop:", "");
+        numArray.push(input);
     }
 
-    var max = 0;
+    console.log(numArray);
 
-    for(var i=0; i<numArray.length; i++)
-    {
-        if(max < numArray[i])
-            max = numArray[i];
+    //Delete -1 from the end of the array
+    if (numArray[numArray.length - 1] == '-1') {
+        numArray.pop();
     }
-    document.write("Max: " + max + "</br>");
-    var min = max;
 
-    for(var i=0; i<numArray.length; i++)
-    {
-        if (min > numArray[i])
-            min = numArray[i];
-    }
-    document.write("Min: " + min + "</br>");
+    console.log(numArray);
+
+
+    //Math functions
+        //maximum, minimum, mean, and median
+        //even numbers, odd numbers, prime numbers, and power-of-2 numbers
+
+    //output results
+
 }
