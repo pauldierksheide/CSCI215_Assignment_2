@@ -1,12 +1,11 @@
-var num = 0;
+var number = 0;
 var numArray = [];
-var i = 0;
 
-function Mathfun(){
+function calculate() {
 
     while (num != -1)
     {
-        num = prompt("Please enter a number, entering a -1 will end the function:"," ");
+        number = prompt("Enter any number. To stop enter -1:"," ");
         numArray[i] = num;
         i++;
     }
