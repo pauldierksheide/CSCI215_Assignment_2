@@ -20,8 +20,8 @@ function enterNum() {
 
 
     //Math functions
-        //maximum, minimum, mean, and median
-        //even numbers, odd numbers, prime numbers, and power-of-2 numbers
+    //maximum, minimum, mean, and median
+    //even numbers, odd numbers, prime numbers, and power-of-2 numbers
 
     //output results
 
